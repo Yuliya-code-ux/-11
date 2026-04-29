@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Премиальная система интеграции личности, решений, денег и дела от Юлии Хасинаевой."
+    />
+    <title>Юлия Хасинаева — системный интегратор личности</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-variant="a">
+    <header class="header">
+      <div class="container header__inner">
+        <a class="logo" href="#hero">YH</a>
+        <nav class="nav">
+          <a href="#system">Система</a>
+          <a href="#diagnostic">Диагностика</a>
+          <a href="#products">Продукты</a>
+          <a href="#about">О Юлии</a>
+          <div class="variant-switch" aria-label="Переключение версии лендинга для A/B-теста">
+            <a href="?variant=a">A</a>
+            <a href="?variant=b">B</a>
+          </div>
+          <a class="nav__cta" href="https://t.me/Khasinaeva_Yuliya" target="_blank" rel="noopener noreferrer">Telegram</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero reveal">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="eyebrow">Системный интегратор личности</p>
+            <h1>У тебя не хаос.<br />У тебя нет системы.</h1>
+            <p class="hero__subtitle">
+              Я помогаю собрать личность, решения, деньги и дело в единую структуру,
+              которая выдерживает рост.
+            </p>
+            <div class="actions">
+              <a class="btn btn--primary" href="#diagnostic">Пройти диагностику</a>
+              <a class="btn btn--ghost" href="#system">Познакомиться с системой</a>
+            </div>
+          </div>
+          <div class="hero__visual">
+            <h2>Система из 5 опор</h2>
+            <ul class="pill-list">
+              <li>Личность</li>
+              <li>Решения</li>
+              <li>Деньги</li>
+              <li>Дело</li>
+              <li>Масштаб</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container narrow">
+          <h2>Ты можешь быть сильной, умной, опытной.<br />Но всё равно жить в напряжении.</h2>
+          <ul class="list">
+            <li>много делаешь, но не растёшь</li>
+            <li>решения через тревогу</li>
+            <li>деньги нестабильны</li>
+            <li>дело держится на тебе</li>
+          </ul>
+          <p class="accent-line">Проблема не в тебе. Проблема в отсутствии системы.</p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container">
+          <h2>Ты не без ресурса. Ты в перекосе.</h2>
+          <p class="section__lead">
+            Если не получается закрыть сферу — это не отсутствие ресурса.
+            Это его неправильное распределение.
+          </p>
+          <div class="bars">
+            <div class="bar-item"><span>Личность</span><div class="bar"><i style="width: 20%"></i></div><strong>20%</strong></div>
+            <div class="bar-item"><span>Решения</span><div class="bar"><i style="width: 60%"></i></div><strong>60%</strong></div>
+            <div class="bar-item"><span>Деньги</span><div class="bar"><i style="width: 40%"></i></div><strong>40%</strong></div>
+            <div class="bar-item"><span>Дело</span><div class="bar"><i style="width: 80%"></i></div><strong>80%</strong></div>
+            <div class="bar-item"><span>Масштаб</span><div class="bar"><i style="width: 0%"></i></div><strong>0%</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="system" class="section reveal">
+        <div class="container">
+          <h2>Я собираю систему</h2>
+          <p class="chain">личность → решения → деньги → дело → масштаб</p>
+          <p class="section__lead">Если сбой в одном месте — проседает всё.</p>
+        </div>
+      </section>
+
+      <section id="diagnostic" class="section reveal">
+        <div class="container">
+          <h2>Мини-диагностика перекоса</h2>
+          <p class="section__lead">Ответь на 5 вопросов и получи точку сбоя системы.</p>
+
+          <form id="quiz-form" class="quiz">
+            <fieldset class="quiz__question">
+              <legend>1. Что чаще всего останавливает тебя от следующего шага?</legend>
+              <label><input type="radio" name="q1" value="personality" required /> Внутренний конфликт и усталость</label>
+              <label><input type="radio" name="q1" value="decisions" /> Сомнения в правильности решения</label>
+              <label><input type="radio" name="q1" value="money" /> Финансовые ограничения</label>
+              <label><input type="radio" name="q1" value="business" /> Перегруз в операционных задачах</label>
+              <label><input type="radio" name="q1" value="scale" /> Нет ясной модели масштабирования</label>
+            </fieldset>
+
+            <fieldset class="quiz__question">
+              <legend>2. Где ты теряешь больше всего энергии?</legend>
+              <label><input type="radio" name="q2" value="personality" required /> Внутреннее напряжение</label>
+              <label><input type="radio" name="q2" value="decisions" /> Постоянный выбор без опоры</label>
+              <label><input type="radio" name="q2" value="money" /> Денежные качели</label>
+              <label><input type="radio" name="q2" value="business" /> Ручное управление всем</label>
+              <label><input type="radio" name="q2" value="scale" /> Рост без структуры</label>
+            </fieldset>
+
+            <fieldset class="quiz__question">
+              <legend>3. Что сейчас проседает сильнее?</legend>
+              <label><input type="radio" name="q3" value="personality" required /> Состояние и устойчивость</label>
+              <label><input type="radio" name="q3" value="decisions" /> Скорость и качество решений</label>
+              <label><input type="radio" name="q3" value="money" /> Система дохода</label>
+              <label><input type="radio" name="q3" value="business" /> Структура дела</label>
+              <label><input type="radio" name="q3" value="scale" /> Готовность к масштабу</label>
+            </fieldset>
+
+            <fieldset class="quiz__question">
+              <legend>4. Что происходит, когда появляется новая возможность?</legend>
+              <label><input type="radio" name="q4" value="personality" required /> Эмоционально перегружаюсь</label>
+              <label><input type="radio" name="q4" value="decisions" /> Долго анализирую и откладываю</label>
+              <label><input type="radio" name="q4" value="money" /> Не понимаю финансовую модель</label>
+              <label><input type="radio" name="q4" value="business" /> Нет процессов для реализации</label>
+              <label><input type="radio" name="q4" value="scale" /> Не знаю, как перенести в систему</label>
+            </fieldset>
+
+            <fieldset class="quiz__question">
+              <legend>5. Какой результат сейчас наиболее критичен?</legend>
+              <label><input type="radio" name="q5" value="personality" required /> Стабильное внутреннее состояние</label>
+              <label><input type="radio" name="q5" value="decisions" /> Чёткие и быстрые решения</label>
+              <label><input type="radio" name="q5" value="money" /> Прогнозируемый денежный поток</label>
+              <label><input type="radio" name="q5" value="business" /> Сильная рабочая система</label>
+              <label><input type="radio" name="q5" value="scale" /> Рост без перегруза</label>
+            </fieldset>
+
+            <button class="btn btn--primary" type="submit">Показать мой результат</button>
+          </form>
+
+          <div id="quiz-result" class="quiz-result" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="products" class="section reveal">
+        <div class="container">
+          <h2>Выбери свой уровень входа</h2>
+          <div class="cards">
+            <article class="card"><h3>Бесплатно</h3><p>Тест / карта</p></article>
+            <article class="card"><h3>Первый шаг</h3><p>Мини-разбор</p></article>
+            <article class="card"><h3>Глубоко</h3><p>Диагностика</p></article>
+            <article class="card"><h3>Система</h3><p>Сопровождение (3–6 месяцев)</p></article>
+            <article class="card"><h3>Рост</h3><p>Стратегическое сопровождение</p></article>
+            <article class="card"><h3>Профессия</h3><p>Обучение с дипломом</p></article>
+            <article class="card"><h3>Среда</h3><p>Живые мероприятия</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container narrow">
+          <h2>Сопровождение — это не курс</h2>
+          <p>Минимальный цикл — 3–6 месяцев. Это период сборки базовой системы.</p>
+          <p>Дальше: масштаб, бизнес, автоматизация, новая роль.</p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container narrow">
+          <h2>Система внутри — основа системы снаружи</h2>
+          <ul class="list">
+            <li>процессы</li>
+            <li>упаковка</li>
+            <li>AI / GPT-агенты</li>
+            <li>автоматизация</li>
+            <li>масштаб</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container narrow">
+          <h2>Обучение системной интеграции личности</h2>
+          <p>Передача метода, практика, диплом государственного образца.</p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container narrow">
+          <h2>Войти в среду</h2>
+          <ul class="list">
+            <li>нетворкинг</li>
+            <li>встречи</li>
+            <li>ретриты</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section reveal">
+        <div class="container narrow">
+          <h2>Юлия Хасинаева</h2>
+          <p class="eyebrow">системный интегратор личности</p>
+          <ul class="list">
+            <li>20+ лет опыта</li>
+            <li>Заслуженный юрист КЧР</li>
+            <li>Автор метода novaЯ</li>
+          </ul>
+          <p class="accent-line">Я соединяю личность, решения и дело в систему, которая выдерживает рост.</p>
+        </div>
+      </section>
+
+      <section class="section section--final reveal">
+        <div class="container narrow">
+          <h2>Ты можешь продолжать искать ответы по частям.<br />А можешь увидеть систему.</h2>
+          <div class="actions">
+            <a class="btn btn--primary" href="#diagnostic">Пройти диагностику</a>
+            <a class="btn btn--ghost" href="https://t.me/Khasinaeva_Yuliya" target="_blank" rel="noopener noreferrer">Записаться</a>
+            <a class="btn btn--ghost" href="https://t.me/Khasinaeva_Yuliya" target="_blank" rel="noopener noreferrer">Обучение</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__links">
+          <a href="https://t.me/Khasinaeva_Yuliya" target="_blank" rel="noopener noreferrer">Telegram</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+        <div class="footer__tools">
+          <button id="export-analytics" class="btn btn--ghost" type="button">
+            Экспорт A/B JSON
+          </button>
+        </div>
+        <p>Форматы подбираются индивидуально после диагностики.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
